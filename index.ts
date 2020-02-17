@@ -1,6 +1,6 @@
 
-import {Pokemon} from "./Pokemon";
-import {Fight} from "./Fight";
+import {Pokemon} from "./models/Pokemon";
+import {Fight} from "./models/Fight";
 
 let pok1 = new Pokemon("Miasmax", 13, 30, 5);
 let pok2 = new Pokemon("Tarinorme", 12, 21, 6);

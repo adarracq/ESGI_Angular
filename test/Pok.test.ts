@@ -1,7 +1,7 @@
 /// <reference types="jest" />
 
-import {Pokemon} from "./Pokemon";
-import {Fight} from "./Fight";
+import {Pokemon} from "../models/Pokemon";
+import {Fight} from "../models/Fight";
 
 
 test("Which pokemon attacks ?", () =>{
@@ -46,5 +46,6 @@ test("Which pokemon wins", () =>{
     fight1_2.fight();
     expect(pok1.isAlive).toBe(true);
     expect(pok2.isAlive).toBe(false);
+    expect(pok2.pdv).toBe(0);
 
 });

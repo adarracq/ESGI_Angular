@@ -37,6 +37,8 @@ export class Fight {
       if (this.whichOneDefend().isAlive)
         this.whichOneDefend().attack(this.whichOneAttack())
     }
+
+    // Print res
     if (this.pokemon1.isAlive)
       console.log(this.pokemon1.name + " bat " + this.pokemon2.name);
     else
